@@ -1,5 +1,5 @@
-// Configuración actualizada 2024
-const FX_PEN_USD = 3.75; // Tipo de cambio actualizado S/ a USD (agosto 2024)
+
+const FX_PEN_USD = 3.6; // Tipo de cambio actualizado S/ a USD (agosto 2024)
 
 // Factores de tasación basados en estándares peruanos actuales
 const FACTORES_TASACION = {
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("calc");
 
   // Validar que existe DATA
-  if (typeof DATA === 'undefined') {
+  if (typeof data === 'undefined') {
     console.error('ERROR: Variable DATA no está definida');
     return;
   }
