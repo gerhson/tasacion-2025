@@ -1,7 +1,7 @@
 // Base de datos actualizada de precios por m² en Lima - Agosto 2024
 // Precios en soles peruanos (S/) por metro cuadrado
 
-const DATA = {
+const data = {
   // === LIMA TOP (Distritos Premium) ===
   "San Isidro": {
     type: ["Departamento", "Casa", "Terreno"],
